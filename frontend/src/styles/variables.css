@@ -1,0 +1,32 @@
+/**
+ * CSS Custom Properties (variables) for the Passwordless Authentication application.
+ * Defines the design system including colors, gradients, shadows, and animation properties.
+ */
+
+:root {
+    /* Primary color gradients for branding and key UI elements */
+    --primary-gradient: linear-gradient(135deg, #6667AB, #9C27B0);
+    --accent-gradient: linear-gradient(135deg, #00C9FF, #92FE9D);
+    
+    /* Surface styling for cards and panels */
+    --surface-gradient: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8));
+    --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
+    
+    /* Text colors for content hierarchy */
+    --text-primary: #2D3748;
+    --text-secondary: #4A5568;
+    
+    /* Status indication colors */
+    --success: #38A169;
+    --error: #E53E3E;
+    
+    /* Animated background gradient colors */
+    --background-start: #0f0c29;
+    --background-mid: #302b63;
+    --background-end: #24243e;
+
+    /* Animation transform variables for particle effects */
+    --tx: 0px;
+    --ty: 0px;
+    --r: 0deg;
+}

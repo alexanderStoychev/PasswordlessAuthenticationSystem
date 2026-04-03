@@ -1,0 +1,40 @@
+# Node.js dependencies
+node_modules/
+frontend/node_modules/
+frontend/.cache/
+frontend/build/
+frontend/dist/
+
+# Maven build artifacts
+target/
+*.class
+*.jar
+*.war
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.env
+
+# Compiled output
+/dist/
+/tmp/
+/out-tsc/
+/bazel-out/
+
+# Test output
+/coverage/ .specstory/
+.cursorindexingignore
