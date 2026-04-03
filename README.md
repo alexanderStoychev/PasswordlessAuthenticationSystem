@@ -1,4 +1,4 @@
-#Passwordless Authentication System
+## Passwordless Authentication System
 
 A modern passwordless authentication system using WebAuthn/FIDO2 standards for secure, passwordless login. This project demonstrates the implementation of FIDO2/WebAuthn standards for biometric and security key authentication, alongside advanced contextual analysis and experimental research on intrusion detection and usability.
 
